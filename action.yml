@@ -1,5 +1,5 @@
 name: "Drillable Check"
-description: "Catch hallucinated, squatted, unpublished, or vulnerable dependencies in your changed lockfiles — graded live against the registry + OSV. Fails only on a positively-flagged package; abstentions never block."
+description: "Catch hallucinated, squatted, unpublished, or vulnerable dependencies — graded live against the registry + OSV."
 branding:
   icon: "check-circle"
   color: "blue"
