@@ -8,8 +8,8 @@
   "engines": { "node": ">=18" },
   "keywords": ["dependencies", "supply-chain", "slopsquatting", "typosquatting", "audit", "ci", "security", "drillable"],
   "homepage": "https://drillable.com",
-  "repository": { "type": "git", "url": "git+https://github.com/drillablehq/drillable-check.git", "directory": "cli" },
-  "bugs": { "url": "https://github.com/drillablehq/drillable-check/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/drillablehq/check.git", "directory": "cli" },
+  "bugs": { "url": "https://github.com/drillablehq/check/issues" },
   "author": "Drillable",
   "license": "UNLICENSED"
 }

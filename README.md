@@ -68,7 +68,7 @@ agent required, which is bigger reach than any one plugin.
 
 ```yaml
 # .github/workflows/drillable-check.yml — fails a PR that adds a hallucinated/squatted/vulnerable dep
-- uses: drillablehq/drillable-check@v0
+- uses: drillablehq/check@v0
   with:
     api-key: ${{ secrets.DRILLABLE_KEY }}   # optional today; reserved for per-key limits
 ```
@@ -76,7 +76,7 @@ agent required, which is bigger reach than any one plugin.
 Or as a pre-commit hook:
 
 ```yaml
-- repo: https://github.com/drillablehq/drillable-check
+- repo: https://github.com/drillablehq/check
   rev: v0.1.0
   hooks:
     - id: drillable-check
