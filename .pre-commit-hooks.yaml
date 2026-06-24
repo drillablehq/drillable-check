@@ -1,6 +1,6 @@
 # Lets any repo add Drillable Check to .pre-commit-config.yaml:
 #
-#   - repo: https://github.com/drillablehq/drillable-check
+#   - repo: https://github.com/drillablehq/check
 #     rev: v0.1.0
 #     hooks:
 #       - id: drillable-check

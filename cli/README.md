@@ -32,4 +32,4 @@ Abstentions and infra errors exit `0` (a Drillable outage must not wedge your CI
 flips that). Fail-only-on-`corrected` is near-zero-false-positive, so it's safe to leave on.
 
 The checking is server-side ([Drillable](https://drillable.com)); this CLI is a thin client.
-Source, the GitHub Action, and the pre-commit hook: https://github.com/drillablehq/drillable-check
+Source, the GitHub Action, and the pre-commit hook: https://github.com/drillablehq/check

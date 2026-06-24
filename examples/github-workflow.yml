@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0          # required so --diff can see the base ref
-      - uses: drillablehq/drillable-check@v0
+      - uses: drillablehq/check@v0
         with:
           scan-diff: true
           # api-key: ${{ secrets.DRILLABLE_KEY }}   # optional — the service needs no auth today
